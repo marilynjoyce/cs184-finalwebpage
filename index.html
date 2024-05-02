@@ -275,8 +275,6 @@ and limit the error to 10^-9 * rest_density. A few things to note: the matrix is
 <p>
     Since our implementation is a particle based fluid, to create a smooth continuous surface, we decided to use the Screen Space Fluid Rendering method, presented by NVIDIA at the Game Developers Conference 2010. This is more computationally efficient than the usual method of Marching Cubes, which we will explain in the next section. Screen space fluids only render fluid effects that are visible on the screen, rather than dealing with the entire 3D space, as seen in the diagram below: 
 </p>
-	In other words, at a higher density, the cloth is heavier, and you notice that the center between the two pins drags down. A higher density cloth causes the cloth to sag downwards more due to a higher (downwards) gravitational force.
-</p>
 <div align="middle">
 	  <tr align="center">
 		<td>
